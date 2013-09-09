@@ -1,0 +1,5 @@
+# Turn on the rewrite engine
+RewriteEngine on
+
+# Request routing
+#RewriteRule ^([a-zA-Z_-]*)\.(html|json|xml)?$   index.php?method=$1&format=$2 [nc,qsa]
